@@ -7,9 +7,14 @@
   <body>
     <h1><a href="index.php">WEB</a></h1>
     <ol>
-      <li><a href="index.php?id=HTML">HTML</a></li>
-      <li><a href="index.php?id=CSS">CSS</a></li>
-      <li><a href="index.php?id=Javascript">Javascript</a></li>
+      <?php
+        $list = scandir('./data'); //scandir() 디렉토리 안에있는 파일을 배열로 가져옴
+        for($i=0; $i<count($list); $i++){
+          if($list[$i] != "." && $list[$i] != ".." ){
+            echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</a></li><br />";
+          }
+        }
+       ?>
     </ol>
     <h2>
       <?php
