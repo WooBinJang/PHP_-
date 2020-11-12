@@ -17,14 +17,19 @@
 # nl2br
 - 문자열의 줄바꿈을 <br> 태그 없이 자동으로 줄바꿈을 해주는 함수
 
-# isset() 변수 설정 여부 확인
+# isset()
+- 변수 설정 여부 확인
 
 # echo file_get_contents(경로.$_GET['id']);
 
-# 배열 array() ex) $Array= array("A","B","C","D");
+# array() 
+- 배열 ex) $Array= array("A","B","C","D");
  
-# count() 배열의 원소 개수 ex) count($Array)	
+# count() 
+- 배열의 원소 개수 ex) count($Array)	
 
-# array_push() 배열의 원소 추가 ex) array_push($Array,"F");
+# array_push()
+- 배열의 원소 추가 ex) array_push($Array,"F");
 
-# scandir() 디렉토리 안에있는 파일을 배열의 원소로 
+# scandir()
+- 디렉토리 안에있는 파일을 배열의 원소로 
