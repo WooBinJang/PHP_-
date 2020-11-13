@@ -33,3 +33,6 @@
 
 # scandir()
 - 디렉토리 안에있는 파일을 배열의 원소로 
+
+# substr( string, start [, length ] )
+- 문자열 인덱스부터 길이만큼 문자열 
