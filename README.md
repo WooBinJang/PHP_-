@@ -36,3 +36,12 @@
 
 # substr( string, start [, length ] )
 - 문자열 인덱스부터 길이만큼 문자열 
+
+# 매개변수
+- parameter(파라미터) 
+
+# 입력한 실제 값
+- argument
+
+# file_put_contents(파일생성,생성할 파일 내용);
+- 
