@@ -14,7 +14,7 @@ function print_list(){
     }
   }
 }
-function print_discription (){
+function print_discription(){
   if(isset($_GET['id'])){
     echo file_get_contents("data/".$_GET['id']);
   } else {
@@ -43,17 +43,15 @@ function print_discription (){
     <?php
     if(isset($_GET['id'])) {
       ?>
-    <a href="update.php?id=<?=$_GET['id']?>">Update</a>
+    <a href="update.php">Update</a>
     <?php
       }
      ?>
-    <h2>
-      <?php
-        print_title();
-       ?>
-    </h2>
-    <?php
-    print_discription();
-     ?>
+     <form action="update_action.php" method="post">
+       <input type="hidden" name= "old_title" value="<?php $_GET['id'] ?>"/>
+       <p><input type="title" name="title" placeholder="title" value="<?php print_title(); ?>"/></p>
+       <p><textarea name="discription" placeholder="discription"><?php print_discription(); ?></textarea></p>
+       <p><input type="submit"></p>
+     </form>
   </body>
 </html>

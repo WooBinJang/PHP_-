@@ -39,21 +39,9 @@ function print_discription (){
         print_list();
        ?>
     </ol>
-    <a href="create.php">Create</a>
-    <?php
-    if(isset($_GET['id'])) {
-      ?>
-    <a href="update.php?id=<?=$_GET['id']?>">Update</a>
-    <?php
-      }
-     ?>
-    <h2>
-      <?php
-        print_title();
-       ?>
-    </h2>
-    <?php
-    print_discription();
-     ?>
+    <form action="create_action.php" method="post">
+      <p><input type="title" name="title" placeholder="title"/></p>
+      <p><textarea name="discription" placeholder="discription"></textarea></p>
+      <p><input type="submit"></p>
   </body>
 </html>
