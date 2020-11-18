@@ -17,7 +17,8 @@ function print_list(){
 }
 function print_discription(){
   if(isset($_GET['id'])){
-    echo htmlspecialchars(file_get_contents("data/".$_GET['id']));
+    $basename = basename($_GET['id']);
+    echo htmlspecialchars(file_get_contents("data/".$basename));
   } else {
     echo "Hello, PHP";
   }
