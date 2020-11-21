@@ -18,5 +18,9 @@ echo 2*1;
 <?php
 echo 4/2;
 ?>
+<h2>4*2*2</h2>
+<?php
+echo 4*2*2;
+?>
 </body>
 </html>
