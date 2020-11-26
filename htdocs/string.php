@@ -7,6 +7,7 @@
    echo "Hello"."world<br />"; // . 를 통해 열자열 끼리 합칠 수 있다.
    echo strlen("Hello world");
    echo strlen("Hello WooBin");
+   echo strlen("Hello Bin");
    ?>
 </body>
 </html>
