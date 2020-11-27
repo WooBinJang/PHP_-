@@ -8,6 +8,7 @@
    echo strlen("Hello world");
    echo strlen("Hello WooBin");
    echo strlen("Hello Bin");
+   echo strlen("Hello Bin!!!");
    ?>
 </body>
 </html>
