@@ -38,5 +38,9 @@ echo 4*2*2;
 <?php
 echo 2*2*2;
 ?>
+  <h2>2*12*2</h2>
+<?php
+echo 2*12*2;
+?>
 </body>
 </html>
