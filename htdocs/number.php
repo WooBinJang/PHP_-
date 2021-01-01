@@ -2,9 +2,9 @@
 <html>
 <body>
   <h1>Number & Arithmetic Operator</h1>
-  <h2>0+0</h2>
+  <h2>0+3</h2>
 <?php
-echo 0+0;
+echo 0+3;
 ?>
    <h2>1+21</h2>
 <?php
